@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\slmp-maylyn\\source\\repos\\libraryapi\\libraryapi\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\slmp-maylyn\\source\\repos\\libraryapi\\libraryapi\\data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\slmp-maylyn\\source\\repos\\libraryapi\\libraryapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\slmp-maylyn\\source\\repos\\libraryapi\\libraryapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\slmp-maylyn\\source\\repos\\libraryapi\\libraryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Data\\Book.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Data\\Book.cs",
+              "ToolTip": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Data\\Book.cs",
+              "RelativeToolTip": "LibraryAPI\\Data\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:35:16.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Data\\SeedData.cs",
+              "RelativeToolTip": "LibraryAPI\\Data\\SeedData.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwFYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T08:34:05.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Startup.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Startup.cs",
+              "ToolTip": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Startup.cs",
+              "RelativeToolTip": "LibraryAPI\\Startup.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T07:40:16.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Program.cs",
+              "RelativeToolTip": "LibraryAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T07:40:12.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "LibraryAPI\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T07:39:06.55Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
