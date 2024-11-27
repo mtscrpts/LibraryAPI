@@ -40,16 +40,14 @@ namespace LibraryAPI.Controllers
         [Route("/library/api/books/{id}")]
         public Book Update(Book book)
         {
-            return bookRepository.Add(book);
+            return bookRepository.Update(book);
         }
 
         [HttpDelete]
         [Route("/library/api/books/{id}")]
         public void Delete(int id)
         {
-            {
-                bookRepository.Delete(id);
-            }
+            bookRepository.Delete(id);
         }
     }
 }

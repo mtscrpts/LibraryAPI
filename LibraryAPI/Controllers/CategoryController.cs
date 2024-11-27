@@ -47,9 +47,7 @@ namespace LibraryAPI.Controllers
         [Route("/library/api/categories/{id}")]
         public void Delete(int id)
         {
-            {
-                categoryRepository.Delete(id);
-            }
+            categoryRepository.Delete(id);
         }
     }
 }

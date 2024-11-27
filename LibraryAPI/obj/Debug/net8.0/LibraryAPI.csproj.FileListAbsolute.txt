@@ -180,3 +180,4 @@ C:\Users\SLMP-Maylyn\source\repos\LibraryAPI\LibraryAPI\bin\Debug\net8.0\System.
 C:\Users\SLMP-Maylyn\source\repos\LibraryAPI\LibraryAPI\bin\Debug\net8.0\System.Web.Http.Cors.dll
 C:\Users\SLMP-Maylyn\source\repos\LibraryAPI\LibraryAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\SLMP-Maylyn\source\repos\LibraryAPI\LibraryAPI\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\SLMP-Maylyn\source\repos\LibraryAPI\LibraryAPI\obj\Debug\net8.0\LibraryAPI.sourcelink.json

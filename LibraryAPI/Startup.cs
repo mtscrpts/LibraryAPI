@@ -33,7 +33,10 @@ namespace LibraryAPI
                     policy.WithOrigins(
                         "https://localhost:7130",
                         "http://127.0.0.1:53366"
-                    );
+                    )
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials();
                 });
             });
         }
