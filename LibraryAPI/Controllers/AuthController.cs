@@ -25,7 +25,7 @@ namespace LibraryAPI.Controllers
                 var token = _jwtTokenManager.Authenticate(userCredentials.Name, userCredentials.Password);
                 return Ok(new { token = token });
             }
-            return Unauthorized();
+            return Unauthorized(new { error = "Invalid credentials"});
         }
 
         //[AllowAnonymous]

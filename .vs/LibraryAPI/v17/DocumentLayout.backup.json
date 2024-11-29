@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\slmp-maylyn\\source\\repos\\libraryapi\\libraryapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\slmp-maylyn\\source\\repos\\libraryapi\\libraryapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\slmp-maylyn\\source\\repos\\libraryapi\\libraryapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\slmp-maylyn\\source\\repos\\libraryapi\\libraryapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\slmp-maylyn\\source\\repos\\libraryapi\\libraryapi\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\slmp-maylyn\\source\\repos\\libraryapi\\libraryapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\slmp-maylyn\\source\\repos\\libraryapi\\libraryapi\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A32EA6BF-C81E-4532-AD02-80AE3C5C457C}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,13 +58,91 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "LibraryAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:18:49.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "LibraryAPI\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:18:45.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "LibraryAPI\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswBsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:17:31.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "LibraryAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T11:29:12.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "LibraryAPI\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T12:17:04.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Controllers\\BookController.cs",
+              "RelativeToolTip": "LibraryAPI\\Controllers\\BookController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwCkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T11:39:46.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "BookRepository.cs",
               "DocumentMoniker": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Repositories\\BookRepository.cs",
               "RelativeDocumentMoniker": "LibraryAPI\\Repositories\\BookRepository.cs",
               "ToolTip": "C:\\Users\\SLMP-Maylyn\\source\\repos\\LibraryAPI\\LibraryAPI\\Repositories\\BookRepository.cs",
               "RelativeToolTip": "LibraryAPI\\Repositories\\BookRepository.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAwwCoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswCMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T07:18:07.668Z",
               "EditorCaption": ""
