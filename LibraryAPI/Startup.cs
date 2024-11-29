@@ -1,6 +1,11 @@
-﻿using LibraryAPI.Data;
+﻿using System.Text;
+using LibraryAPI.Data;
 using LibraryAPI.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 
 namespace LibraryAPI
 {
@@ -17,28 +22,75 @@ namespace LibraryAPI
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<LibraryApiDbContext>(option => option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+   
+
+            services.AddAuthentication(option =>
+            {
+                option.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                option.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(jwtOption =>
+            {
+                var key = Configuration.GetValue<string>("JwtConfig:Key");
+                var keyBytes = Encoding.ASCII.GetBytes(key);
+                jwtOption.SaveToken = true;
+                jwtOption.TokenValidationParameters = new TokenValidationParameters
+                {
+                    IssuerSigningKey = new SymmetricSecurityKey(keyBytes),
+                    ValidateLifetime = true,
+                    ValidateAudience = false,
+                    ValidateIssuer = false
+                };
+            });
+
             services.AddControllers();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "LibraryAPI", Version = "v1" });
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    In = ParameterLocation.Header,
+                    Description = "Please enter token",
+                    Name = "Authorization",
+                    Type = SecuritySchemeType.Http,
+                    BearerFormat = "JWT",
+                    Scheme = "bearer"
+                });
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type=ReferenceType.SecurityScheme,
+                                Id="Bearer"
+                            }
+                        },
+                        new string[]{}
+                    }
+                });
             });
 
-            services.AddDbContext<LibraryApiDbContext>(option => option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            
             services.AddTransient<ICategoryRepository, CategoryRepository>();
             services.AddTransient<IBookRepository, BookRepository>();
+            services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<IJwtTokenManager, JwtTokenManager>();
             services.AddCors(options =>
             {
                 options.AddPolicy(name: MyAllowSpecificOrigins, policy =>
                 {
-                    policy.WithOrigins(
-                        "https://localhost:7130",
-                        "http://127.0.0.1:53366"
-                    )
+                    policy
                     .AllowAnyMethod()
                     .AllowAnyHeader()
-                    .AllowCredentials();
+                    .AllowAnyOrigin();
                 });
             });
+
+            
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, LibraryApiDbContext libraryApiDbContext)
@@ -58,8 +110,11 @@ namespace LibraryAPI
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseRouting();
+            
             app.UseCors(MyAllowSpecificOrigins);
+            // The following options must be in order
+            app.UseAuthentication();
+            app.UseRouting();
             app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {

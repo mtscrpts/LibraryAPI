@@ -1,9 +1,11 @@
 ﻿using LibraryAPI.Data;
 using LibraryAPI.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibraryAPI.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("library/api/books")]
     public class BookController : ControllerBase

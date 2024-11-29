@@ -248,5 +248,31 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "LibraryAPI.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "library/api/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userCredentials",
+        "Type": "LibraryAPI.Data.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryAPI.Controllers.UserController",
+    "Method": "GetUserName",
+    "RelativePath": "library/api/user/name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

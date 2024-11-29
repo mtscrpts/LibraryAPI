@@ -8,5 +8,7 @@ namespace LibraryAPI.Data
         public required DbSet<Category> Categories { get; set; }
 
         public required DbSet<Book> Books { get; set; }
+
+        public required DbSet<User> Users { get; set; }
     }
 }
